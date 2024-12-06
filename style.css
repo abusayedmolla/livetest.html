@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+
+.card {
+    border: none;
+    background-color: #f9f9f9;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-body {
+    font-size: 0.9rem;
+}

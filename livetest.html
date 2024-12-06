@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo font-playfair m-0">World Peas</h1>
+            <nav>
+                <a href="#" class="text-dark mx-2">Home</a>
+                <a href="#" class="text-dark mx-2">Shop</a>
+                <a href="#" class="text-dark mx-2">Contact</a>
+            </nav>
+            <button class="btn btn-success">Basket</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <div class="row">
+            <!-- Basket Items -->
+            <div class="col-lg-8">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            <img src="image/tomato.jpeg" class="img-fluid rounded-start" alt="Heirloom tomato">
+                        </div>
+                        <div class="col-md-9 d-flex align-items-center justify-content-between">
+                            <div>
+                                <h5 class="card-title font-playfair">Heirloom tomato</h5>
+                                <p class="text-success">$5.99 / kg</p>
+                            </div>
+                            <div class="text-end">$5.99</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-3">
+                                <img src="image/ginger.jpeg" class="img-fluid rounded-start" alt="Heirloom tomato">
+                            </div>
+                            <div class="col-md-9 d-flex align-items-center justify-content-between">
+                                <div>
+                                    <h5 class="card-title font-playfair">Organic ginger</h5>
+                                    <p class="text-success">$12.99 / kg</p>
+                                </div>
+                                <div class="text-end">$12.99</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="image/onion.jpeg" class="img-fluid rounded-start" alt="Heirloom tomato">
+                                </div>
+                                <div class="col-md-9 d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <h5 class="card-title font-playfair">Sweet onion</h5>
+                                        <p class="text-success">$2.99 / kg</p>
+                                    </div>
+                                    <div class="text-end">$2.99</div>
+                                </div>
+                            </div>
+                        </div>
+
+                <!-- Add more cards for other items -->
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-playfair">Order Summary</h5>
+                        <div class="d-flex justify-content-between">
+                            <span>Subtotal</span>
+                            <span>$27.44</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Shipping</span>
+                            <span>$3.99</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Tax</span>
+                            <span>$2.00</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <strong>Total</strong>
+                            <strong>$33.43</strong>
+                        </div>
+                        <button class="btn btn-success w-100 mt-3">Continue to payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-light py-3 text-center">
+        <p class="m-0">© 2024 World Peas</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
